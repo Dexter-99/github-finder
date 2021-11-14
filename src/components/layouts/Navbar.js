@@ -11,7 +11,7 @@ const Navbar = ({ title, icon }) => {
       </h1>
       <ul>
         <li>
-          <Link to="/">Home</Link>
+          <Link to="/github-finder">Home</Link>
         </li>
         <li>
           <Link to="/about">About</Link>
@@ -22,11 +22,11 @@ const Navbar = ({ title, icon }) => {
 };
 Navbar.defaultProps = {
   title: "Navbar",
-  icon: null
+  icon: null,
 };
 Navbar.propTypes = {
   title: PropTypes.string.isRequired,
-  icon: PropTypes.string.isRequired
+  icon: PropTypes.string.isRequired,
 };
 
 export default Navbar;
